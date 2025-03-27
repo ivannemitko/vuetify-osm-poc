@@ -7,9 +7,24 @@ export {}
 /* prettier-ignore */
 declare module 'vue' {
   export interface GlobalComponents {
-    AppFooter: typeof import('./components/AppFooter.vue')['default']
-    HelloWorld: typeof import('./components/HelloWorld.vue')['default']
+    AppAsidePanel: typeof import('./components/AppAsidePanel.vue')['default']
+    AppInitialDataLoader: typeof import('./components/AppInitialDataLoader.vue')['default']
+    AppProgressBar: typeof import('./components/AppProgressBar.vue')['default']
+    AppSnackbar: typeof import('./components/AppSnackbar.vue')['default']
+    AppTopPanel: typeof import('./components/AppTopPanel.vue')['default']
+    MapContainer: typeof import('./components/MapContainer.vue')['default']
+    MapLayerPlaceEdit: typeof import('./components/MapLayerPlaceEdit.vue')['default']
+    MapLayerPlaces: typeof import('./components/MapLayerPlaces.vue')['default']
+    MapLayerUsers: typeof import('./components/MapLayerUsers.vue')['default']
+    PlaceCreationFab: typeof import('./components/PlaceCreationFab.vue')['default']
+    PlaceFilter: typeof import('./components/PlaceFilter.vue')['default']
+    PlaceFilterToggle: typeof import('./components/PlaceFilterToggle.vue')['default']
+    PlaceForm: typeof import('./components/PlaceForm.vue')['default']
+    PlaceFormPanel: typeof import('./components/PlaceFormPanel.vue')['default']
+    PlaceViewInfo: typeof import('./components/PlaceViewInfo.vue')['default']
+    PlaceViewPanel: typeof import('./components/PlaceViewPanel.vue')['default']
     RouterLink: typeof import('vue-router')['RouterLink']
     RouterView: typeof import('vue-router')['RouterView']
+    UserAvatar: typeof import('./components/UserAvatar.vue')['default']
   }
 }

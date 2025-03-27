@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "name": "Магазин А",
+    "type": "store",
+    "coordinates": [50.4501, -30.5234]
+  },
+  {
+    "id": 2,
+    "name": "Кафе Б",
+    "type": "cafe",
+    "coordinates": [50.4511, 30.5220]
+  },
+  {
+    "id": 3,
+    "name": "Офіс В",
+    "type": "office",
+    "coordinates": [-50.4522, 30.5205]
+  },
+  {
+    "id": 4,
+    "name": "Place with unknown type",
+    "type": "fuel_station",
+    "coordinates": [50.4511, 31.5220]
+  }
+]
