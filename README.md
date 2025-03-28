@@ -74,7 +74,7 @@ While this is primarily a personal learning project, I welcome:
 - Documentation improvements
 
 ## 📜 License
-MIT © 2024 Ivan Nemitko
+MIT © 2025 Ivan Nemitko
 
 ---
 
