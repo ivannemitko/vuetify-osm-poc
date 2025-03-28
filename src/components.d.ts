@@ -20,6 +20,7 @@ declare module 'vue' {
     PlaceFilter: typeof import('./components/PlaceFilter.vue')['default']
     PlaceFilterToggle: typeof import('./components/PlaceFilterToggle.vue')['default']
     PlaceForm: typeof import('./components/PlaceForm.vue')['default']
+    PlaceFormMapInfo: typeof import('./components/PlaceFormMapInfo.vue')['default']
     PlaceFormPanel: typeof import('./components/PlaceFormPanel.vue')['default']
     PlaceViewInfo: typeof import('./components/PlaceViewInfo.vue')['default']
     PlaceViewPanel: typeof import('./components/PlaceViewPanel.vue')['default']

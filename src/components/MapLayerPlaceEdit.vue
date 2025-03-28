@@ -2,6 +2,7 @@
   <div v-if="false">
     <!-- MapLayerPlaceEdit - Visual rendering handled by Leaflet -->
   </div>
+  <PlaceFormMapInfo />
 </template>
 
 <script setup lang="ts">

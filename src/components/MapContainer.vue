@@ -127,11 +127,14 @@ onUnmounted(() => {
 @import 'leaflet.awesome-markers/dist/leaflet.awesome-markers.css';
 
 .map-element-container {
-  width: 100%;
-  height: 100%;
-  position: relative;
-  top: 0;
-  left: 0;
+  width: calc(100% - var(--v-layout-left) - var(--v-layout-right));
+  height: calc(100% - var(--v-layout-top) - var(--v-layout-bottom));
+  position: absolute;
+  top: var(--v-layout-top);
+  bottom: var(--v-layout-bottom);
+  left: var(--v-layout-left);
+  right: var(--v-layout-right);
+  transition: width 0.3s, height 0.3s, top 0.3s, left 0.3s, bottom 0.3s, right 0.3s;
   z-index: 0; // Ensure proper stacking context
 }
 

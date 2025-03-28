@@ -6,7 +6,7 @@
     floating
     tag="div"
     elevation="1"
-    class="ma-3 position-fixed right-0"
+    class="ma-3 float-end"
   >
     <div class="px-4 pt-4 w-100">
       <v-select
@@ -59,6 +59,5 @@ const label = computed(() => placesFilterStore.hasFilters ? 'Only selected types
     z-index: 1000;
     max-width: calc(var(--max-screen-width) - var(--margin));
     min-width: calc(var(--min-screen-width) - var(--margin));
-    top: var(--v-layout-top);
   }
 </style>
