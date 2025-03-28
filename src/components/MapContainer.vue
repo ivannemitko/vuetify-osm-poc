@@ -77,7 +77,6 @@ const initMap = () => {
       // Initialize and add tile layer with retina display support
       tileLayer.value = L.tileLayer(MAP_CONFIG.tileLayer, {
         maxZoom: 19,
-        detectRetina: true,
       }).addTo(newMapInstance);
 
       // Store the map instance in Pinia store
