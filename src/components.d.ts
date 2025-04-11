@@ -15,6 +15,7 @@ declare module 'vue' {
     MapContainer: typeof import('./components/MapContainer.vue')['default']
     MapLayerPlaceEdit: typeof import('./components/MapLayerPlaceEdit.vue')['default']
     MapLayerPlaces: typeof import('./components/MapLayerPlaces.vue')['default']
+    MapLayerPlacesPixi: typeof import('./components/MapLayerPlacesPixi.vue')['default']
     MapLayerUsers: typeof import('./components/MapLayerUsers.vue')['default']
     PlaceCreationFab: typeof import('./components/PlaceCreationFab.vue')['default']
     PlaceFilter: typeof import('./components/PlaceFilter.vue')['default']

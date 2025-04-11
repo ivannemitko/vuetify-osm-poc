@@ -117,5 +117,5 @@ declare module 'leaflet' {
     drawCallback: (utils: PixiOverlayUtils, event?: L.LeafletEvent) => void,
     pixiContainer: PIXI.Container,
     options?: PixiOverlayOptions
-  ): PixiOverlay | null;
+  ): PixiOverlay;
 }

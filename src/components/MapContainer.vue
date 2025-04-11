@@ -14,7 +14,7 @@
   <!-- Conditional map layers - only render when map is initialized -->
   <template v-if="mapInstance">
     <!-- Base Map Layers -->
-    <MapLayerPlaces />
+    <MapLayerPlacesPixi />
     <MapLayerUsers />
 
     <!-- Edit Layer (only shown when place form is active) -->
