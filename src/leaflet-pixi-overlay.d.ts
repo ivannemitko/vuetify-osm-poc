@@ -29,7 +29,7 @@ declare module 'leaflet' {
      * Return the layer projection zoom level
      * @default projectionZoom
      */
-    projectionZoom?: (map: Map) => number;
+    projectionZoom?: (map: L.Map) => number;
     /**
      * Destroy PIXI EventSystem
      * @default false
@@ -63,19 +63,22 @@ declare module 'leaflet' {
     pane?: string;
   }
 
+  type LatLngToLayerPointFn = (latLng: L.LatLngExpression, zoom?: number) => L.Point;
+  type LayerPointToLatLngFn = (point: L.PointExpression, zoom?: number) => L.LatLng;
+
   interface PixiOverlayUtils {
     /**
      * Convert a LatLng to layer point
      * @param latLng The geographical point to convert
      * @param zoom Optional zoom level (defaults to initial zoom)
      */
-    latLngToLayerPoint(latLng: L.LatLngExpression, zoom?: number): L.Point;
+    latLngToLayerPoint: LatLngToLayerPointFn;
     /**
      * Convert a layer point to LatLng
      * @param point The point to convert
      * @param zoom Optional zoom level (defaults to initial zoom)
      */
-    layerPointToLatLng(point: L.PointExpression, zoom?: number): L.LatLng;
+    layerPointToLatLng: LayerPointToLatLngFn;
     /**
      * Get the scale factor between current zoom and initial zoom
      * @param zoom Optional zoom level to compare with initial zoom

@@ -18,7 +18,7 @@
     "leaflet": "^1.9.4",
     "leaflet-pixi-overlay": "^1.9.4",
     "leaflet.awesome-markers": "^2.0.5",
-    "pixi.js": "^6.5.10",
+    "pixi.js": "^7.4.3",
     "roboto-fontface": "*",
     "ts-debounce": "^4.0.0",
     "vue": "^3.4.31",
