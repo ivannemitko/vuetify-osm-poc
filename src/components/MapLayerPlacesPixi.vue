@@ -5,7 +5,7 @@
 </template>
 
 <script setup lang="ts">
-import 'leaflet-pixi-overlay/L.PixiOverlay.js';
+import 'leaflet-pixi-overlay';
 
 import * as L from 'leaflet';
 import { Assets, Container, Sprite } from 'pixi.js';
